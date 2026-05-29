@@ -5,9 +5,9 @@ $hoy = date("Y-m-d H:i:s");
 
 require 'vendor/autoload.php'; // Cargar Composer
 
-    $cliente = new MongoDB\Client("Cadena de conexion a servicio Mongo Atlas");
-    $db = $cliente->sena;	// Nombre de BD
-    $coleccion = $db->aprendices;	//Nombre de la coleccion	
+    $cliente = new MongoDB\Client("mongodb+srv://karolsaenz82_db_user:BLsdBaD0VV2nSJfb@cluster0.ro5ipp8.mongodb.net/?appName=Cluster0");
+    $db = $cliente->prueba;	// Nombre de BD
+    $coleccion = $db->gustos;	//Nombre de la coleccion	
     $resultado = $coleccion->insertOne([
         "apellidos" => $_POST["apellidos"],
         "nombres" => $_POST["nombres"],
