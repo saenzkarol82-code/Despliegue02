@@ -20,8 +20,4 @@ require 'vendor/autoload.php'; // Cargar Composer
     
 include "index.html";
 
-<<<<<<< HEAD
 ?>
-=======
-?>
->>>>>>> 8fcabf3c10104a891b5b8d195523c9e3af2debe4
